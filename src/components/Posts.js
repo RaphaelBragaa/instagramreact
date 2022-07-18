@@ -2,6 +2,8 @@ import React from "react"
 
 export default function Posts({Feeds}){
   const [corBotao, setCorBotao] = React.useState('primary');
+ 
+  
   console.log(corBotao)
   function F(){
     if(corBotao === 'primary'){
